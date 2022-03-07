@@ -3,6 +3,7 @@ Test repo for Python3 training
 # mycode (Project Title)
 
 A repository for holding my test code while participating in Python training
+I want to learn how to use Git and Github
 
 ## Getting Started
 
