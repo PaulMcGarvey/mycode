@@ -15,7 +15,7 @@ def main():
     elif first_name.lower().startswith('b') == True:
         print("Bzzzzz - your name starts with B!")
 
-    #check if the firstname is 'Paul'; converted to lower to ignore case from user input
+    # check if the firstname is 'Paul'; converted to lower to ignore case from user input
     elif first_name.lower() == "paul":
         print("You are in good company")
 
