@@ -1,0 +1,17 @@
+#!usr/bin/env python3
+
+""" PMcG | 2022 
+    Using the os module """
+
+import os
+
+# define a funtion then stop searching on first match
+def find(name, path):
+    for root, dirs, files in os.walk(path):
+        if name in files:
+            return os.path.join(root, name)
+
+lookfor = input("What am I looking for? ")
+lookwhere = input("What is the path in  which I should search? ")
+
+print(find(lookfor, lookwhere))
