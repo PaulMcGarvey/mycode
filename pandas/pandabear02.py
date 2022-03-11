@@ -57,5 +57,7 @@ def main():
     # save the figure as stackedbar.png
     plt.savefig("/home/student/static/stackedbar.png", bbox_inches='tight')
 
+    print(movies_sheet1.loc[movies_sheet1["Year"] > 1950])
+
 if __name__ == "__main__":
     main()
