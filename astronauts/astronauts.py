@@ -15,7 +15,7 @@ def main():
 
     # get the total number of astronauts and store in variable
 
-    total_astro = len(resp.get('people'))
+    total_astro = len(resp['people'])
 
     # prints the total number of astronauts
     print(f"People in space: {total_astro}")

@@ -31,10 +31,10 @@ def main():
 
             for term in searchTerms:
             
-                if re.search(term, searchMe):
-                    print(f"Found a match for {term}!")
-                else:
-                    print("No match!")
+                #if re.search(term, searchMe):
+                    #print(f"Found a match for {term}!")
+                #else:
+                    #print("No match!")
 
                 num_of_matches = len(re.findall(term, searchMe))
 
